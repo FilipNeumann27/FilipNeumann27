@@ -1,0 +1,21 @@
+table{
+    width: 400px;
+    
+}
+table, tr, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+th {
+    background-color: wheat;
+}
+
+tfoot {
+    background-color: salmon;
+}
+
+odkaz.html, body {
+    background-color: aliceblue;
+}
