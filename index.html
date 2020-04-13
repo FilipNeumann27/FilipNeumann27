@@ -7,15 +7,11 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
-        <style>
-        body {background-color: aliceblue;}
-        h2 {color: green}
-        </style>
     </head>
     
     <body>
         
-        <h1 style="text-align: center; font-size: 50px;">Basketbalový klub SŠEMI</h1>
+        <h1>Basketbalový klub SŠEMI</h1>
         <br>
         
         <nav>
@@ -32,9 +28,9 @@
        
         <hr>
     
-    <b>Vítejte na stránce 
-    <span style= "color: red"> našeho basketbalového klubu
-    </b>.</span>
+    <b>Vítejte na stránce
+    <span id="welcome"> našeho basketbalového klubu</span>
+    </b>.
     
     Náš <i>prémiový</i> basketbalový klub je tu s námi již 42 let.
     
@@ -50,7 +46,7 @@
     </p>
     
     <p>
-    <span style= "color: green">
+    <span id="join">
         <u>Pokud se chcete připojit musíte splňovat následující požadavky:</u>
     </span>
     
@@ -64,14 +60,16 @@
     <p>
     <hr>
     <p>
-        <u>Výhody členů klubu:</u>   
-    
+    <div> 
+    </div>    
+    <div class="premium">    
+    <u id="vyhody">Výhody členů klubu:</u>   
     <ul>
     <li>SŠEMI premium</li>   
     <li>Parkování zdarma v areálu klubu</li>
     <li>Máte možnost být členem jednoho z nejprémiovějších basketbalových klubů na světě!</li>
     </ul>
-    
+    </div>
     </p>
     
  
@@ -95,7 +93,7 @@
     
     <tr rowspan="8", style="text-align: center"> 
     <td>1</td>
-    <td style="background-color: red">2</td>
+    <td class="red">2</td>
     <td>3</td>
     <td>4</td>
     <td>5</td>
@@ -105,7 +103,7 @@
     <td>6</td>
     <td>7</td>
     <td>8</td>
-    <td style="background-color: red">9</td>
+    <td class="red">9</td>
     <td>10</td>
     </tr>   
     
@@ -113,14 +111,14 @@
     <td>11</td>
     <td>12</td>
     <td>13</td>
-    <td style="background-color: red">14</td>
-    <td style="background-color: red">15</td>
+    <td class="red">14</td>
+    <td class="red">15</td>
     </tr>   
     
     <tr rowspan="8", style="text-align: center"> 
     <td>16</td>
-    <td style="background-color: red">17</td>
-    <td style="background-color: red">18</td>
+    <td class="red">17</td>
+    <td class="red">18</td>
     <td>19</td>
     <td>20</td>
     </tr>
@@ -136,9 +134,14 @@
     </tbody>
      
     <tfoot>
-    <tr style="text-align: center" >
-    <td td colspan="6"> Červeně označené dny = zavřeno</td>
+    
+    <tr style="text-align: center">
+    <td td colspan="8">
+    Červeně označené dny = zavřeno
+    </td>
+    
     </tr>    
+    
     </tfoot>
         
     </table>
@@ -170,16 +173,5 @@
    
     
     
-    
-    
-       
-        
-        
-        
     </body>
-
-
-
-
-
 </html>
